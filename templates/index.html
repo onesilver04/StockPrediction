@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Prediction</title>
+</head>
+<body>
+    <h2>Stock Price Prediction</h2>
+    <form action="/predict" method="post">
+        <label for="ticker">Enter Stock Ticker:</label><br>
+        <input type="text" name="ticker" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+    
+    {% if plot_url %}
+    <h3>Prediction Result:</h3>
+    <img src="data:image/png;base64,{{ plot_url }}" alt="Stock Price Prediction">
+    {% endif %}
+</body>
+</html>
