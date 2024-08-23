@@ -13,6 +13,9 @@
 pip install pandas matplotlib seaborn sklearn keras
 ```
 
+## 결과
+![결과](https://github.com/user-attachments/assets/e414689c-c190-4950-a775-50ee6b637198)
+
 ### 아쉬운 점
 - 독학으로 했기에 부족한 점이 아직 많음
 - 프런트에 flask 대신 다른 플랫폼을 사용했다면 더 퀄리티가 높았을 듯
